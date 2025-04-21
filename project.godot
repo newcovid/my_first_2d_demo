@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="my_first_2d_demo"
+run/main_scene="uid://b8pxkw807ee78"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -19,6 +20,10 @@ config/icon="res://icon.svg"
 window/size/viewport_width=480
 window/size/viewport_height=720
 window/stretch/mode="canvas_items"
+
+[dotnet]
+
+project/assembly_name="my_first_2d_demo"
 
 [input]
 
